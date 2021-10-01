@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+#home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#home .slider-cont {
+    height: 100%;
+    width: 100%;
+    
+}
+
+#home img {
+    max-width: 50rem;
+    width: auto;
+    height: auto;
+    border-radius: 30px;
+}
+
+#home .name-text {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: lighter;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.slider {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 30rem;
+}
+
+.slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 1000ms ease;
+    /* filter: brightness(75%); */
+}
+
+.slider img.selected { 
+    opacity: 1;
+}
+
+
+.me {
+    width: 100%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: 'Space Mono', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    z-index: 10000;
+    transition: .5s ease;
+}
+
+.me a {
+    color: rgb(255, 255, 255);
+    
+}
+
+.me li:nth-child(2):hover {
+    filter: brightness(45%);
+    cursor: pointer;
+    transition: .5s ease;
+  
+}
+
+
+

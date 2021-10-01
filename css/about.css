@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body {
+    background: #2b2c2f;
+    font-family: 'Roboto', sans-serif;
+}
+
+#about {
+    color: #fff;
+    
+}
+
+.about-me {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+}
+
+.about-me .img-box {
+    max-width: 45rem;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    padding: 1.5rem;
+    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
+       
+}     
+
+.about-me .img-box img {
+    width: 100%;
+    border-radius: 50%;
+    border: 1remsolid transparent;
+    box-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
+}
+
+.about-img img {
+    max-width: 35rem;
+    max-height: 35rem;
+    
+    border-radius: 50%;
+    padding: 1.5rem;
+    box-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
+}
+
+
+.about-text {
+    width: 50%;
+    padding: 4rem;
+}
+
+.about-text h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-text p {
+    line-height: 2.5rem;
+}
+
+.contact {
+    height: 35vh;
+    font-size: 2rem;
+    
+}
+
+.contact ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.contact ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    transition: all 0.3s ease;
+}
+
+.contact ul li:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact ul li i {
+   font-size: 4rem;
+   padding: .5rem;
+   
+}
+
+.contact a {
+    outline: none;
+    color: inherit;
+}
+
+.software {
+    height: 50vh;
+}
+
+.software h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.software ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+}
+
+.software ul li img {
+    width: 8rem;
+    margin: 2rem;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+   
+}
+
+.software ul li img:hover {
+    transition: all 0.3s ease;
+    box-shadow: -3px -3px 3px #222327, 3px 3px 3px #363636;
+}
+
+.social-links {
+    margin-top: 2rem;
+    text-align: center;
+    
+}
+
+.social-links a {
+    font-size: 2.5rem;
+    box-shadow: 3px 3px 3px #222327, -3px -3px 3px #363636;
+    border-radius: 50%;
+    margin: .7rem;
+    padding: .5rem;
+    outline: none;
+    color: inherit;
+    
+}
+
+.social-links a:hover {
+    transition: all 0.3s ease;
+    box-shadow: -3px -3px 3px #222327, 3px 3px 3px #363636;
+}
+
+
+
